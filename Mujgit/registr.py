@@ -9,7 +9,7 @@ class Registr:
         self.seznam_pojistencu.append(pojistenec)  # Přidání pojištěnce do seznamu
 
     # Metoda pro výpis všech pojištěnců
-    def zobraz_pojistence(self):
+    def zobrazit_pojistence(self):
         # Kontrola, zda seznam není prázdný
         if not self.seznam_pojistencu:
             print("Žádní pojištěnci nejsou evidováni.")
