@@ -37,7 +37,7 @@ def main():
                     print(f"Chyba: {e}")
 
             case "2":  # Zobrazení všech pojištěnců
-                registr.zobraz_pojistence()
+                registr.zobrazit_pojistence()
 
             case "3":  # Vyhledání pojištěnce
                 jmeno = input("Zadejte jméno: ")
